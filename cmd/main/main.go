@@ -19,7 +19,7 @@ func main() {
 	http.HandleFunc("/verify", handler.Verify)
 	http.HandleFunc("/login", handler.Login)
 	http.HandleFunc("/create-account", handler.CreateAccount)
-	
+
 	fmt.Printf(" !-- Setup ready, serving on: localhost%s \n", *port)
 	log.Fatal(http.ListenAndServe(*port, nil))
 }
