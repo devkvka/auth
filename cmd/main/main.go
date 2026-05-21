@@ -12,7 +12,7 @@ import (
 func main() {
 	fmt.Println(" !-- Booting auth service ... ")
 
-	port := flag.String("-port", ":8080", "port to serve on")
+	port := flag.String("-port", ":6767", "port to serve on")
 	flag.Parse()
 
 	fmt.Println(" !-- Setting up handlers ... ")
