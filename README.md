@@ -1,2 +1,2 @@
 # auth
-Authentication microservice
+A tiny authentication microservice
